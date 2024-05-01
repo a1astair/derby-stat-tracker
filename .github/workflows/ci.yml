@@ -22,6 +22,12 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v3.0.0
 
+
+      # Install pnpm    
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3.0.0
+  
       # Connect your workspace on nx.app and uncomment this to enable task distribution.
       # The "--stop-agents-after" is optional, but allows idle agents to shut down once the "e2e-ci" targets have been requested
       # - run: npx nx-cloud start-ci-run --distribute-on="5 linux-medium-js" --stop-agents-after="e2e-ci"
