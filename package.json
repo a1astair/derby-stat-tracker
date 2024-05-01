@@ -6,7 +6,7 @@
     "dev": "nx dev",
     "build": "nx build",
     "start": "nx start",
-    "test": "nx test --passWithNoTests",
+    "test": "nx test",
     "prepare": "husky",
     "lint": "prettier --check .",
     "format": "prettier --write .",
