@@ -10,7 +10,8 @@
     "prepare": "husky",
     "lint": "prettier --check .",
     "format": "prettier --write .",
-    "nx_format": "nx format:write --all"
+    "nx_format": "nx format:write --all",
+    "nx_lint": "nx affected:lint --fix"
   },
   "private": true,
   "dependencies": {
